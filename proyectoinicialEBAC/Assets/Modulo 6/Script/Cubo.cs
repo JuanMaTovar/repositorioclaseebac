@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Cubo : MonoBehaviour
 {
-    //creamos un objeto de tipo GameObject
-    public GameObject prefabCubo;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +22,7 @@ public class Cubo : MonoBehaviour
          //creamos un color aleatorio
         Color c = new Color(Random.value,Random.value,Random.value);
         //se le asigna el color al objeto
-        prefabCubo.GetComponent<MeshRenderer>().material.color = c;
+        GetComponent<MeshRenderer>().material.color = c;
 
     }
 }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CubosUpdate : MonoBehaviour
 {
-    public GameObject PrefabCubo;
+    public GameObject prefabCubo;
     public List<GameObject> listaDeCubos;
-    public float factorDeEscalamiento = 0.8f;
+    public float factorDeEscalamiento;
     public int numCubos = 0;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,7 @@ public class CubosUpdate : MonoBehaviour
     void Update()
     {
         numCubos++;
-        GameObject tempGameObject = Instantiate<GameObject>(PrefabCubo);
+        GameObject tempGameObject = Instantiate<GameObject>(prefabCubo);
         tempGameObject.name = "CuboNum" + numCubos;
         Color c = new Color(Random.value, Random.value, Random.value);
         tempGameObject.GetComponent<MeshRenderer>().material.color = c;
