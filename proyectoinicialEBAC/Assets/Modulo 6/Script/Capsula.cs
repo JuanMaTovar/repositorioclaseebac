@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Capsula : MonoBehaviour
 {
-    //creamos un objeto de tipo GameObject
-    public GameObject prefabCapsula;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +20,6 @@ public class Capsula : MonoBehaviour
     {
         Color c = new Color(Random.value, Random.value, Random.value);
         //se le asigna el color al objeto
-        prefabCapsula.GetComponent<MeshRenderer>().material.color = c;
+        GetComponent<MeshRenderer>().material.color = c;
     }
 }

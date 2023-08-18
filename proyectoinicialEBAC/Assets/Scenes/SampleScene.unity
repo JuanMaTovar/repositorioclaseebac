@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &225624463 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7133650318712782048, guid: fd08b416ef74c084fb1cb44110acba84, type: 3}
-  m_PrefabInstance: {fileID: 7133650319360699907}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,13 +295,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.04955797, y: -0, z: -0, w: 0.99877125}
-  m_LocalPosition: {x: 2.72, y: 10.11, z: -60.64}
+  m_LocalRotation: {x: 0.1546207, y: -0, z: -0, w: 0.9879739}
+  m_LocalPosition: {x: -0.11, y: 16.91, z: -63.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 5.681, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 17.79, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,7 +309,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5526030c7c86e944a76c97b203e408b, type: 3}
   m_Name: 
@@ -331,6 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0888f47026c5eb4ea3d869bb61df157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabCubo: {fileID: 7133650318712782048, guid: fd08b416ef74c084fb1cb44110acba84, type: 3}
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,7 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a024e6f3a13b4aa4bbe5111bddd68dcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabCubo: {fileID: 225624463}
+  prefabCubo: {fileID: 7133650318712782048, guid: fd08b416ef74c084fb1cb44110acba84, type: 3}
   listaDeCubos: []
   factorDeEscalamiento: 0
   numCubos: 0
@@ -376,6 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41014ddcee2db4b49bfbcc11074ee900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabCubo: {fileID: 7133650318712782048, guid: fd08b416ef74c084fb1cb44110acba84, type: 3}
 --- !u!4 &1871839133
 Transform:
   m_ObjectHideFlags: 0
@@ -498,7 +495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1172411445278073753, guid: c1a061b6e7ad55c4d8f9886bc2c6e1fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 1172411445278073753, guid: c1a061b6e7ad55c4d8f9886bc2c6e1fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -559,7 +556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4687534150352528819, guid: 6cdd0a9fc10f3cc4cac598599f5ccd32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4687534150352528819, guid: 6cdd0a9fc10f3cc4cac598599f5ccd32, type: 3}
       propertyPath: m_LocalPosition.y
@@ -628,7 +625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7133650318712782052, guid: fd08b416ef74c084fb1cb44110acba84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.5
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 7133650318712782052, guid: fd08b416ef74c084fb1cb44110acba84, type: 3}
       propertyPath: m_LocalPosition.y

@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Esfera : MonoBehaviour
 {
-    //creamos un objeto de tipo GameObject
-    public GameObject prefabEsfera;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +16,7 @@ public class Esfera : MonoBehaviour
     {
         Color c = new Color(Random.value, Random.value, Random.value);
         //se le asigna el color al objeto
-        prefabEsfera.GetComponent<MeshRenderer>().material.color = c;
+        GetComponent<MeshRenderer>().material.color = c;
     }
     
 }
