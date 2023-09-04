@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EjerciciosVariablesMod8 : MonoBehaviour
 {
-    int varInt=0;
-    float varFl=1;
-    float var1=2.2565f, var2=1.6f;
+    int varInt = 0;
+    float varFl = 1;
+    float var1 = 2.2565f, var2 = 1.6f;
     int res;
     string flotaToString;
 
@@ -47,13 +47,13 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
             }
         }
 
-         //Crea un string guarda, una oración en él y elimina los primeros 5 caracteres de este ya sea 
+        //Crea un string guarda, una oración en él y elimina los primeros 5 caracteres de este ya sea 
         //con la función substring, Split, o cualquier otro método disponible en la clase String
         string oracion2 = "EBAC curso de Unity desde cero";
         Debug.Log(oracion2.Remove(0, 5));
 
         //Crea dos variables flotantes, has una operación entre ellas y obtén el resultado en un tipo de dato entero que requiera un casteo explícito.
-      
+
         res = (int)(var1 * var2);
         Debug.Log("Resultado de 2.2565 x 1.6 = " + res);
 
@@ -88,7 +88,7 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void FixedUpdate()
     {
