@@ -8,9 +8,10 @@ public class EjerciciosEstructuras : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FuncionLista(20, 1, 20);
-        FuncionDescentente(5,1,10);
-        FuncionHashSet(10, 1, 10);
+        //FuncionLista(20, 1, 20);
+        //FuncionDescentente(5,1,10);
+        //FuncionHashSet(10, 1, 10);
+        FuncionPilasColas();
 
 
     }
@@ -65,6 +66,44 @@ public class EjerciciosEstructuras : MonoBehaviour
         }
 
         return hashSetNum;
+    }
+    //Pilas y colas LiLo
+    public void FuncionPilasColas()
+    {//Pilas
+        Stack<string> pilaStrings = new Stack<string>();
+        pilaStrings.Push("Azul");
+        pilaStrings.Push("Rojo");
+        pilaStrings.Push("Negro");
+        pilaStrings.Push("Blanco");
+        pilaStrings.Push("Verde");
+        Debug.Log(pilaStrings.Peek());
+        pilaStrings.Pop();
+        Debug.Log(pilaStrings.Peek());
+        pilaStrings.Pop();
+        Debug.Log(pilaStrings.Peek());
+        pilaStrings.Pop();
+        Debug.Log(pilaStrings.Peek());
+        pilaStrings.Pop();
+        Debug.Log(pilaStrings.Peek());
+        pilaStrings.Pop();
+
+        //Colas FiLo
+        Queue<string> colaString = new Queue<string>();
+        colaString.Enqueue("Azul");
+        colaString.Enqueue("Rojo");
+        colaString.Enqueue("Negro");
+        colaString.Enqueue("Blanco");
+        colaString.Enqueue("Verde");
+        Debug.Log(colaString.Peek());
+        colaString.Dequeue();
+        Debug.Log(colaString.Peek());
+        colaString.Dequeue();
+        Debug.Log(colaString.Peek());
+        colaString.Dequeue();
+        Debug.Log(colaString.Peek());
+        colaString.Dequeue();
+        Debug.Log(colaString.Peek());
+        colaString.Dequeue();
     }
    
 }
